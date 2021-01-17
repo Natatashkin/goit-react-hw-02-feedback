@@ -1,0 +1,16 @@
+.feedBtn {
+  padding: 10px 15px;
+  text-transform: capitalize;
+  border: none;
+  border-radius: 5px;
+}
+
+.feedBtn:hover,
+.feedBtn:focus {
+  color: #ffffff;
+  background-color: rgb(33, 133, 199);
+}
+
+.feedBtn:not(:last-child) {
+  margin-right: 15px;
+}

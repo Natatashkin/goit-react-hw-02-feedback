@@ -1,0 +1,11 @@
+.statList {
+  padding-left: 0;
+  list-style: none;
+}
+
+/* .statItem {
+} */
+
+.statItemValue {
+  margin-left: 10px;
+}
