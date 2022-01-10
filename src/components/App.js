@@ -1,10 +1,14 @@
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 import Section from './Section/Section';
 import FeedbackOptions from './FeedbackOptions';
 import Statistics from './Statistics';
 import Notification from './Notification';
 
 export default class App extends Component {
+  static propTypes = {
+    state: PropTypes.objectOf(PropTypes.number),
+  };
   state = {
     good: 0,
     neutral: 0,
