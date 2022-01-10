@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import PropTypes from 'prop-types';
 
 const SectionStyles = styled.section`
   display: flex;
@@ -16,6 +17,11 @@ const Section = ({ title, children }) => {
       {children}
     </SectionStyles>
   );
+};
+
+Section.propTypes = {
+  title: PropTypes.string.isRequired,
+  children: PropTypes.node.isRequired,
 };
 
 export default Section;
